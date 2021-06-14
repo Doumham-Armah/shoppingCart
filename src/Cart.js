@@ -18,6 +18,12 @@ function Cart({ initialItems }){
         setItems(newItems);
       };
 
+      // delete item from cart 
+      const handleDelete = (id) =>{
+          const newItems = items.filter(item => item.id !== id)
+          setItems(newItems)
+      }
+
     // calcs the grand total of all items in the cart
     const GrandTotal = items.reduce((total, item) => (
         total + item.qty * item.price), 0).toFixed(2)
@@ -28,9 +34,15 @@ function Cart({ initialItems }){
           <h1 className="Cart-title">Shopping Cart</h1>
           <div className="Cart-items">
             {items.map(item => (
-              <CartItem {...item} updateQty={updateQty} key={item.id} />
+              <CartItem {...item}
+                updateQty={updateQty}
+                handleDelete={handleDelete}
+                key={item.id} />
+                
             ))}
+
           </div>
+
           <h2>Grand total: {GrandTotal}</h2>
         </div>
       );
