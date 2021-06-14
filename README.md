@@ -1,3 +1,9 @@
+# Shopping Cart Component
+
+This is a simple demo of a reactjs shopping cart component
+
+![alt text](https://github.com/Doumham-Armah/shoppingCart/blob/main/shoppingCart.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,8 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Shopping Cart Component
 
-This is a simple demo of a reactjs shopping cart component
-
-![alt text](https://github.com/Doumham-Armah/shoppingCart/blob/main/shoppingCart.png)
