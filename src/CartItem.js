@@ -8,6 +8,8 @@ function CartItem({id, itemName, price, qty}){
             <div>{itemName}</div>
             <div>${price}</div>
             <div>{qty}</div>
+            <div>{`Total : ${qty*price}`}</div>
+
 
         </div>
     )
