@@ -43,7 +43,7 @@ function Cart({ initialItems }){
 
           </div>
 
-          <h2>Grand total: {GrandTotal}</h2>
+          <h2 className='Cart-total'>Grand total: {GrandTotal}</h2>
         </div>
       );
 }

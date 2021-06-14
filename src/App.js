@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import './style.css'
 import Cart from './Cart.js'
 import CartItem from './CartItem'
+import './Cart.css'
 
 const items = [
   { id: 1, itemName: "Taco Seasoning", price: 2.25, qty: 2 },
